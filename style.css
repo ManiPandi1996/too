@@ -1,0 +1,57 @@
+.flx{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+  scroll-behavior: smooth;
+  overflow-y:auto;
+  overflow-x: hidden;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.footer {
+  font-size: 14px;
+  color: #888;
+  margin-top: 20px;
+}
+
+.gmap{
+  width: 100%;
+  height: 500px;
+  margin: 15px;
+  
+  
+}
+.bot{
+  z-index: 10;
+  position: absolute;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+
+  
+}
+.bot2{
+    width: 100px;
+    height: 100px;
+    padding-top: 60px;
+  }
+  .bot1{
+    width: 70px;
+    height: 70px;
+    margin-top: 19px;
+    margin-left: 20px;
+  }
+  .nav1{
+    margin-left: 70%;
+  }
+  .btn1,.btn2{
+   margin-left: 5%;
+  }
